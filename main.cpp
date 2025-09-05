@@ -11,6 +11,8 @@ int main()
 
 	vector <string> vS1 = s1.splitString("#//#");
 	s1.printVectorElements(vS1);
+
+	cout << s1.numOfWordsInString("Hello im khalid, how are you doin?");
 	
 
 	system("pause>0");

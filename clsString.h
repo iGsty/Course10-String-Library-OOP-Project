@@ -74,5 +74,23 @@ public:
 			std::cout << s << std::endl;
 	}
 
+	short numOfWordsInString( std::string s1) const
+	{
+		short counter = 0;
+		std::string delim = " ";
+		size_t position = s1.find(delim);
+
+		while ( (position = s1.find(delim) ) != std::string::npos)
+		{
+			counter++;
+			s1.erase(0, position + delim.length());
+		}
+
+		if (!s1.empty())
+			counter++;
+
+			return counter;
+	}
+
 };
 
