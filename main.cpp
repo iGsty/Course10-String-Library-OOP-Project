@@ -14,7 +14,8 @@ int main()
 
 	s1.value = "Hello im khalid, how are you doin?";
 
-	cout << s1.numOfWordsInString();
+	cout << s1.numOfWordsInString() << endl;
+	cout << clsString::numOfWordsInString("YO ye yaa");
 	
 
 	system("pause>0");

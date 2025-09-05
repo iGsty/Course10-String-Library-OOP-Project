@@ -74,7 +74,7 @@ public:
 			std::cout << s << std::endl;
 	}
 
-	short numOfWordsInString( std::string s1) const
+	static short numOfWordsInString( std::string s1)
 	{
 		short counter = 0;
 		std::string delim = " ";
