@@ -82,7 +82,11 @@ public:
 
 		while ( (position = s1.find(delim) ) != std::string::npos)
 		{
+			std::string word = s1.substr(0, position);
+
+			if (!word.empty())
 			counter++;
+
 			s1.erase(0, position + delim.length());
 		}
 
