@@ -96,5 +96,10 @@ public:
 			return counter;
 	}
 
+	short numOfWordsInString()
+	{
+		return numOfWordsInString(_value);
+	}
+
 };
 

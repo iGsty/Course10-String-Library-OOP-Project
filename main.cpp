@@ -12,7 +12,9 @@ int main()
 	vector <string> vS1 = s1.splitString("#//#");
 	s1.printVectorElements(vS1);
 
-	cout << s1.numOfWordsInString("Hello im khalid, how are you doin?");
+	s1.value = "Hello im khalid, how are you doin?";
+
+	cout << s1.numOfWordsInString();
 	
 
 	system("pause>0");
