@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-
+	//test
 	clsString s1("Hello#//#Its#//#Turki");
 
 	vector <string> vS1 = s1.splitString("#//#");
